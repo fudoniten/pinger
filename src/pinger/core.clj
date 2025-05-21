@@ -32,3 +32,7 @@
     (send-notification channel msg {:server server :title title :priority :low}))
   (alert! [_ title msg]
     (send-notification channel msg {:server server :title title :priority :max})))
+
+(defn open-channel
+  ([chan] (open-channel "ntfy.sh" chan))
+  ([srv chan] (NtfyChan. srv chan)))
