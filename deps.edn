@@ -1,0 +1,13 @@
+{
+ :paths ["src"]
+ :deps {
+        org.clojure/clojure { :mvn/version "1.12.0"}
+        clj-http/clj-http { :mvn/version "3.12.3" }
+        org.clojure/core.async { :mvn/version "1.6.681" }
+
+        org.fudo/fudo-clojure {
+                               :git/url "https://github.com/fudoniten/fudo-clojure.git"
+                               :git/sha "56739be3b0968e4ddaea45c26112744d6d59640d"
+                               }
+        }
+ }
