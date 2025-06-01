@@ -34,5 +34,5 @@
     (send-notification channel msg {:server server :title title :priority :max})))
 
 (defn open-channel
-  ([chan] (open-channel "ntfy.sh" chan))
+  ([chan]     (open-channel "ntfy.sh" chan))
   ([srv chan] (NtfyChan. srv chan)))
