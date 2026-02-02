@@ -16,7 +16,7 @@
       in {
         packages = rec {
           default = pinger;
-          pinger = helpers.packages."${system}".mkClojureLib {
+          pinger = helpers.legacyPackages."${system}".mkClojureLib {
             name = "org.fudo/pinger";
             src = ./.;
           };
@@ -25,7 +25,7 @@
         devShells = rec {
           default = updateDeps;
           updateDeps = pkgs.mkShell {
-            buildInputs = with helpers.packages."${system}";
+            buildInputs = with helpers.legacyPackages."${system}";
               [ (updateClojureDeps { }) ];
           };
         };
