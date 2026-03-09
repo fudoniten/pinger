@@ -4,9 +4,9 @@
     {
       "lib": "org.fudo/fudo-clojure",
       "url": "https://github.com/fudoniten/fudo-clojure.git",
-      "rev": "56739be3b0968e4ddaea45c26112744d6d59640d",
+      "rev": "a32e527a6db2962f29bbbe33c1c3475c13198a08",
       "git-dir": "https/github.com/fudoniten/fudo-clojure",
-      "hash": "sha256-4qdEhJFjXLV/sJrV9KfCQ1iPcZY6l8xbt9ZjnZxgU4U="
+      "hash": "sha256-ifhYPF9tdxaVryrLW2r72JNXefmnLEsRbeUFr8DYtQk="
     }
   ],
   "mvn-deps": [
